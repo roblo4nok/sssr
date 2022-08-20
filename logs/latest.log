@@ -1,0 +1,26 @@
+[00:01:28] [Server thread/INFO]: [XTWIIZ: Set own game mode to Spectator Mode]
+[00:01:31] [Server thread/INFO]: [XTWIIZ: Set own game mode to Creative Mode]
+[00:07:29] [Server thread/INFO]: XTWIIZ has made the advancement [A Seedy Place]
+[00:13:28] [Server thread/INFO]: [XTWIIZ: Successfully set the idle timeout to 1 minutes.]
+[00:16:02] [Server thread/INFO]: XTWIIZ lost connection: Disconnected
+[00:16:02] [Server thread/INFO]: XTWIIZ left the game
+[00:16:12] [Server thread/INFO]: XTWIIZ[/192.168.1.1:43800] logged in with entity id 37269 at (3456.936819418199, 80.0, -4473.093701899809)
+[00:16:12] [Server thread/INFO]: XTWIIZ joined the game
+[00:16:17] [Server thread/INFO]: [XTWIIZ: Set own game mode to Survival Mode]
+[00:16:19] [Server thread/INFO]: XTWIIZ lost connection: Disconnected
+[00:16:19] [Server thread/INFO]: XTWIIZ left the game
+[00:16:25] [Server Shutdown Thread/INFO]: Stopping server
+[00:16:25] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Input/output error
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:272) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:297) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:339) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:181) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at nz$2.run(SourceFile:100) [server.jar:?]
